@@ -1,0 +1,12 @@
+footer {
+    color: #fff;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer p {
+    font-size: 14px;
+}

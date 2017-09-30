@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background: url('../img/dark-wood.jpg') repeat;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+header{
+    background: url('../img/header-page.jpg') no-repeat;
+    background-size: 100%;
+    height: 180px;
+    
+}
+
+header h1{
+    text-align: right;
+    padding-top: 65px;
+    padding-right:10px;
+}
+
+nav{
+    background: url('../img/header-page.jpg') ;
+    background-size: 100%;
+    height: 20px;
+    margin-top:-15px;
+    margin-bottom:20px;
+   
+}
+
+nav ul li{
+display:inline-block;
+}
+
+nav ul li a{
+    color:#fff;
+    margin-right:10px;
+    text-decoration: none;
+    margin-left:20px;
+    
+}
+
+nav ul li:first-child a {
+    color:#000;
+}
+
+nav ul li a:hover{
+    color:#000;
+}
+
+nav ul li:first-child a:hover{
+    color:#fff;
+}
+
+
+
+section {
+    width: 800px;
+    float:left;
+    background:#fff;
+}
+section article {
+     margin-bottom: 65px;
+    
+}
+
+section article figure{
+    width:190px;
+    float:left;
+    margin: 15px;
+}
+
+article div{
+    width:470px;  
+    float:right;
+   
+}
+
+div h2 {
+    margin-top:10px;
+}
+
+div h3{
+    color: #FFD700;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left:0px;
+}
+
+section article p {
+   width: 470px;
+   float:right;
+   height:200px;
+    
+}
+
+aside{
+    width:300px;
+    height: 543px;
+    background: #fff;
+    float:left;
+}
+
+main{
+    height:600px;
+   
+    
+}
+
+footer{
+    background: #A5A5A5;
+    margin-bottom:0 px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    text-align: center;
+    color:#fff;
+}
+
+.popular-recipes{
+   color: red;
+}
+
+.popular-recipes ul {
+    list-style: none;
+}
+
+.popular-recipes ul li{
+    margin: 5px;
+    margin-top:25px;
+}
+.popular-recipes a{
+color:red;
+text-decoration: none;
+font-family: 'Lato', sans-serif;
+}

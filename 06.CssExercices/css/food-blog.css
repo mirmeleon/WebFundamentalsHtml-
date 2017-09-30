@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+
+}
+p{
+    font-size:14px;
+}
+
+header{
+    background: url('../img/header.jpg') no-repeat center;
+    height: 204px;
+    margin-bottom: 35px;
+}
+
+header h1{
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    padding-top: 65px;
+   
+}
+
+button {
+    background: none;
+    background-color: #fff;
+    color: #ec5353;
+    padding: 15px 25px;
+    border: 1px solid #ec5353;
+    border-radius: 15px;
+    margin: 15px;
+    
+}
+
+button:hover{
+    background-color: #ec5353;
+    border: 1px solid #ec5353;
+    cursor: pointer;
+    color:#fff;
+}
+
+div.content{
+    width: 800px;
+    float:left;
+    text-align: justify;
+    margin:15px;
+}
+
+div.content img{
+    width: 800px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+aside{
+    float: right;
+    width:300px;
+   
+
+}
+
+aside img{
+    width:250px;
+    height: 150px;
+    margin-top:25px;
+    margin-bottom: 5px;
+}

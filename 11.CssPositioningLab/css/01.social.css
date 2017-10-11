@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    background-color: #292929;
+}
+
+section {
+    display:inline-block;
+   
+    width:250px;
+    vertical-align: top;
+    margin:10px;
+    padding:20px 20px 30px 20px;
+  
+}
+
+
+li{
+    list-style-type: none;
+    text-transform: capitalize; 
+
+}
+
+
+a{
+    text-decoration: none;
+    color:#7B7254;
+    font-size:18px;
+}
+
+h2{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px;
+}
+
+footer{  
+margin-top:30px;
+margin-left:15px;
+}
+
+
+section div div{
+    background: url("../img/social.jpg");
+    display:inline-block;
+    width: 30%;
+    height: 60px;
+}
+
+.linkedin{
+  
+    background-position:-192px; 
+    background-position-y:1px; 
+}
+
+.youtube{
+    background-position:-3026px; 
+    background-position-y:4px; 
+}
+
+.tweet {
+    background-position:-64px; 
+    background-position-y:4px; 
+}
+
+.fb:hover{
+    background-position:0px; 
+    background-position-y:70px; 
+    cursor:pointer;
+}
+
+.linkedin:hover{
+    background-position:-192px; 
+    background-position-y:70px; 
+}
+
+.youtube:hover{
+    background-position:-3026px; 
+    background-position-y:70px; 
+}
+
+.tweet:hover {
+    background-position:-64px; 
+    background-position-y:70px; 
+}

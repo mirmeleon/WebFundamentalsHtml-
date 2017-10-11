@@ -1,0 +1,42 @@
+header {
+    background: #8B603D;
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+    width: 130px;
+    margin: 10px 10px 10px -15px;
+    background: #33B5E5;
+    padding: 10px;
+}
+
+.left li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px;
+}
+
+aside {
+    float: left;
+}
+
+main {
+    height: 250px;
+}
+
+footer {
+    background: #8B603D;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 20px;
+}

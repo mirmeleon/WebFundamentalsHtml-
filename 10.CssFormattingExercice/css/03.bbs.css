@@ -1,0 +1,32 @@
+body{
+    width:890px;
+    margin:auto;
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+    border:2px solid #a5b2b3;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+
+
+ article{
+    display:inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding:8px;
+}
+
+article img{
+    width: 185px;
+    margin:auto;
+}
+article img:hover{
+    opacity: 0.4;
+    cursor:pointer;
+}
+
+article h1{
+    text-align:center;
+    text-transform: capitalize;
+    font-weight: 30;
+}

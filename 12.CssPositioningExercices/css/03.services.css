@@ -1,0 +1,48 @@
+body{
+    font-family: 'OpenSans-ExtraBold', 'Helvetica', sans-serif;
+    font-size:16px;
+    background: #F0F0E8;
+}
+
+h1{
+    font-size:56px;
+    text-align: center;
+    color:#009288;
+}
+
+
+
+p {
+    color:#7E7A82;
+    font-weight: bold;
+
+}
+
+header p{
+    font-weight: bold;
+    text-align: center;
+}
+
+article {
+    width: 180px;
+    text-align: center;
+    color:#7E7A82;
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+article:first-of-type{
+    margin-left:180px;
+}
+
+
+article p{
+    font-weight: normal;
+}
+
+article:hover{
+    border-left: 10px solid #009288;
+    background: #F6F6F5;
+    cursor: pointer;
+}

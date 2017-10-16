@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #927057;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main {
+    width: 470px;
+    margin: 50px auto 0;
+    padding: 50px 60px 70px 60px;
+    background: #d5c395;
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+footer {
+    color: #EFE1C4;
+    padding: 20px 20px 20px 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    background: #927057;
+    color:  #d5c395;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 35px 15px 35px;
+    text-transform: uppercase;
+ outline: none;
+  width: 100%;
+    max-Width: 500px;
+    font-size: 1.5em;
+ 
+}
+
+button:hover {
+    background: #FABD91;
+    cursor: pointer;
+}
+
+main:before {
+    position: absolute;
+    top: -30px;
+    left: 259px;
+    background: url("../img/triangle.png") no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+    content: "";
+}
+
+
+
+header.image-container {
+    
+    margin-top: 50px;
+  text-align: center;
+}
+
+img {
+    border: 5px solid #d5c395;
+    height: 123px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+   
+}
+
+div.input{
+    position: relative;
+}
+
+div.input img{
+    position: absolute;
+ left: 12px;
+    top: 11px;
+    width: 20px;
+  height: 20px;
+    border: none;
+}

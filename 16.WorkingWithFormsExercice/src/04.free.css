@@ -1,0 +1,33 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body{
+    font-family: 'Tahoma', 'Helvetica', sans-serif;
+    font-size:14px;
+    background: #EBEBEB;
+}
+
+main{
+    width:800px;
+    margin:40px 100px 40px 100px;
+    border:1px solid green;
+    background: #fff;
+}
+
+header{
+    text-align: center;
+   
+  
+}
+
+h1{
+    font-size:24px;
+}
+
+form {
+    display:inline-block;
+    height: 350px;
+    width:350px;
+    border:1px solid green;
+  vertical-align: top;
+  margin:20px;
+}

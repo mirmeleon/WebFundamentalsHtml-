@@ -1,0 +1,130 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body{
+    font-family: 'Tahoma', 'Helvetica', sans-serif;
+    font-size:13px;
+    background: #EBEBEB;
+    
+}
+
+h1{
+    font-size:28px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+h2{
+    font-size:16px;
+    font-family: 'Helvetica', sans-serif;
+    
+}
+
+header{
+    background: #F1F1F1;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    padding:20px 10px 20px 5px;
+    border-bottom: 1px dotted #000;
+}
+
+h1{
+    color:#269EE4;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left:10px;
+}
+
+article div{
+    display:inline-block;
+    width:450px;
+  
+    margin-right:40px;
+}
+
+.first{
+    width:58%;
+}
+
+.second{
+    width:30%;
+}
+
+.third{
+  height:200px;
+}
+
+.four{
+    height:200px;
+    width:600px;
+    margin-left:100px;
+}
+
+input{
+    background: #fff;
+    color:#000;
+    width: 170px;
+    border:1px solid #BDBDBD;
+    padding:5px;
+    margin:5px;
+}
+
+select{
+    background: #fff;
+    color:#000;
+    width: 170px;
+    border:1px solid #BDBDBD;
+    padding:5px;
+    margin:5px; 
+}
+
+
+hr{
+    color:#F1F1F1;
+    margin:10px;
+}
+
+#labelRooms{
+    margin-left:105px;
+}
+
+#labelCheck-in{
+    margin-left:135px;
+}
+
+input.search{
+    background: url()
+  }
+
+    button{
+        color:#fff;
+        background: #269EE4;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 10px;
+        border:none;
+        padding:10px 35px 10px 35px;
+       float:right;
+    }
+
+    button:hover{
+        background: #42C9CA;
+        cursor: pointer;
+    }
+
+    .second {
+         position: relative; 
+        }
+    .second input {
+         text-indent: 30px;
+         background: #fff;
+        }
+
+    .second .fa-search { 
+      position: absolute;
+      top: 10px;
+      left: 200px;
+      font-size: 15px;
+      color:#000;
+
+     
+    }

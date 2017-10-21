@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body{
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    color:#1e1917;
+    max-width: 800px;
+    background: gray;
+}
+
+h1{
+    font-size:40px;
+}
+
+label{
+    font-size:14px;
+    font-weight: 500;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a{
+    color:#136F63;
+    font-size: 15px;
+   
+}

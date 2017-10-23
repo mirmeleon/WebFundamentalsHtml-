@@ -1,0 +1,53 @@
+@media screen and (max-width:960px) {
+    body #wrapper {
+        background: url('../img/site-background.jpg') center no-repeat;
+        width: 760px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    body #wrapper {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body #wrapper header {
+        text-align: center;
+    }
+    body #wrapper>header h1 a span {
+        margin: auto;
+    }
+    body #wrapper>header h1 a img {
+        margin: auto;
+    }
+    body #wrapper>header nav ul li {
+        display: block;
+        width: 100%;
+    }
+    body #wrapper>aside {
+        display: block;
+        width: 100%;
+    }
+    body #wrapper>aside div {
+        display: inline-block;
+        width: 49%;
+        height: 250px;
+        vertical-align: top;
+    }
+    body #wrapper>aside div.news {
+        margin-left: -5px;
+    }
+    body #wrapper>section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body #wrapper {
+        width: 400px;
+    }
+    body #wrapper>aside div {
+        height: 300px;
+    }
+}

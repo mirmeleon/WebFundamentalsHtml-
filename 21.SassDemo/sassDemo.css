@@ -1,0 +1,29 @@
+﻿/* taka se importvat vunshni @import '_gradient.scss'; */
+/*vars*/
+/*mixins*/
+.default-border, .dotted-border {
+  border: 3px solid black;
+  background: tomato;
+  border-radius: 8px; }
+
+/*extendvane*/
+.dotted-border {
+  border-style: dotted; }
+
+main div {
+  font-size: 20px; }
+
+main ul li {
+  border-top: 10px ridge tomato; }
+
+section {
+  background: red; }
+  section button {
+    border-radius: 15px;
+    background: deepskyblue;
+    color: purple;
+    padding: 5px 35px 5px 35px;
+    border: none; }
+    section button:hover {
+      background: orange; }
+

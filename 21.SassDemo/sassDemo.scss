@@ -1,0 +1,63 @@
+﻿/* taka se importvat vunshni @import '_gradient.scss'; */
+/*vars*/
+$border-side:top;
+$border-color:tomato;
+$border-style:ridge;
+$border-width:10px;
+$pixels:20px;
+
+/*mixins*/
+@mixin button-style {
+    border-radius:15px;
+    background:deepskyblue;
+    color:purple;
+    padding:5px 35px 5px 35px;
+    border:none;
+    &:hover{
+        background:orange;
+    }
+}
+
+.default-border{
+    border:3px solid black;
+    background:tomato;
+    border-radius:8px;
+}
+
+/*extendvane*/
+.dotted-border{
+    @extend .default-border;
+    border-style:dotted;
+}
+
+
+    main{
+        div {
+            font-size:$pixels;
+        }
+
+        ul{
+            li{
+                border-#{$border-side}:
+                    $border-width $border-style $border-color;
+            }
+        }
+    }
+
+    section {
+        background:red;
+
+      
+
+        button{
+            @include button-style
+        }
+
+        p{
+
+        }
+
+        div{
+
+        }
+    }
